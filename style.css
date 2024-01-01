@@ -1,0 +1,60 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+footer {
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#myCanvas {
+  pointer-events:none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+}
+
+.advertisement {
+  margin-top: 5em;
+  font-size: 14px;
+  text-align: right;
+
+}
+
+#refresh-button {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:14px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Verdana;
+	font-size:28px;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+#refresh-button:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+#refresh-button:active {
+	position:relative;
+	top:1px;
+}
